@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>检测报告</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background: #ffffff;
+            padding:20px 16px;
+        }
+        .wrap {
+            max-width:720px;
+            margin:0 auto;
+        }
+        /* 头部logo+标题 */
+        .header-top {
+            display:flex;
+            align-items:center;
+            gap:12px;
+            margin-bottom:24px;
+        }
+        .logo-img{
+            width:60px;
+            height:auto;
+        }
+        .header-title{
+            font-size:24px;
+            color:#222;
+            font-weight:500;
+        }
+        /* 蓝色标题栏 */
+        .info-title-bar{
+            background-color:#2b78bc;
+            color:#fff;
+            font-size:20px;
+            padding:14px 18px;
+            border-radius:6px 6px 0 0;
+        }
+        .report-box{
+            border:2px solid #2b78bc;
+            border-top:none;
+            border-radius:0 0 6px 6px;
+            margin-bottom:24px;
+        }
+        .report-row{
+            padding:16px 18px;
+            border-bottom:1px solid #e2e8f0;
+            font-size:18px;
+        }
+        .report-row:last-child{
+            border-bottom:none;
+        }
+        .label-text{
+            color:#333;
+        }
+        .desc-text{
+            font-size:18px;
+            line-height:1.7;
+            color:#333;
+            margin-bottom:30px;
+        }
+        .footer-text{
+            font-size:18px;
+            color:#222;
+            line-height:1.8;
+        }
+        /* 备案链接样式：默认蓝色，hover深蓝色 */
+        .footer-text a{
+            color:#1677ff;
+            text-decoration:none;
+        }
+        .footer-text a:hover{
+            color:#0958d9;
+            text-decoration:underline;
+        }
+        .footer-text a:active{
+            color:#0047ab;
+        }
+        /* 公安备案小图标样式 */
+        .gongan-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gongan-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
+}
+
+.gongan-link span {
+    line-height: 1;
+}
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <!-- 头部图片logo和标题 -->
+    <div class="header-top">
+        <img class="logo-img" src="tqt-logo.png" alt="TQT Logo">
+        <div class="header-title">天津市产品质量监督检测技术研究院</div>
+    </div>
+
+    <!-- 报告信息区域 -->
+    <div class="report-box">
+        <div class="info-title-bar">报告基本信息</div>
+        <div class="report-row">
+            <span class="label-text">报告编号：</span>
+            <span>TQT09-0129-2023</span>
+        </div>
+        <div class="report-row">
+            <span class="label-text">样品名称：</span>
+            <span>交联聚乙烯绝缘聚烯烃护套无卤低烟阻燃A类电力电缆</span>
+        </div>
+        <div class="report-row">
+            <span class="label-text">签发日期：</span>
+            <span>2023-03-17</span>
+        </div>
+        <div class="report-row">
+            <span class="label-text">委托单位：</span>
+            <span>天津正标津达线缆集团有限公司</span>
+        </div>
+    </div>
+
+    <div class="desc-text">
+        如需更多信息，可电话咨询天津市产品质量监督检测技术研究院业务部：022-23078908
+    </div>
+    <div class="footer-text">
+        天津市产品质量监督检测技术研究院<br>
+        <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">津ICP备08101474号-8</a><br>
+       <a class="gongan-link" href="https://beian.mps.gov.cn/#/query/webSearch?code=12011602001042" target="_blank">
+    <img class="gongan-icon" src="gongan-icon.png" alt="公安备案图标">
+
+    <span>津公网安备12011602001042号</span>
+</a>
+
+    </div>
+</div>
+</body>
+</html>

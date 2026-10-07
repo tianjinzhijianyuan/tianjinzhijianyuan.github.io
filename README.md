@@ -1,2 +1,2 @@
 # tianjinzhijianyuan.github.io
-检测报告
+天津质检院
